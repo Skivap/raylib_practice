@@ -10,7 +10,7 @@ static void init(){
     // initialize the map
     map = Create_Map("assets/map.txt");
     // create Player
-    player = Create_Player();
+    player = Create_Player(CLASSIC);
     // create Camera
     camera = (Camera2D){0};
     camera.target = (Vector2){player.x, player.y};
