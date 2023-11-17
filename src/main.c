@@ -1,11 +1,8 @@
-#include "engine.h"
+#include "Engine.h"
 
 int main(void)
 {
-
-    initGame();
-
-    GameLoop();
+    StartGame();
 
     return 0;
 }

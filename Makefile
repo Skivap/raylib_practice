@@ -1,6 +1,5 @@
 CC = gcc
 CFLAGS = -I -Wall
-NAME = app
 
 SRC_DIR = ./src
 ASSETS_DIR = ./assets
